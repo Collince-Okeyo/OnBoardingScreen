@@ -33,7 +33,7 @@ private lateinit var viewPager: ViewPager2
                 lifecycle
         )
 
-        viewPager.adapter = adapter
+        viewPager?.adapter = adapter
 
         return view
     }
